@@ -1,10 +1,11 @@
-# bleep
+# bleep downloads
 
-A little droid that floats on your Mac. It watches your Claude Code and Codex sessions, your mail and your calendar. It handles the small asks and tells you what needs you.
+**bleep is a free, open source AI assistant that lives on your Mac.** It watches your Claude Code and Codex sessions, your Gmail and your Google Calendar. It clears the small asks, and taps you only when something needs you.
 
-Site: https://bleep-omega.vercel.app
+- **Source code (MIT):** https://github.com/AviroopPaul/bleep
+- **Website:** https://bleep-omega.vercel.app
 
-This repo holds only the downloads. The source is private.
+This repo holds only the signed release builds. Please open issues and pull requests in the [source repo](https://github.com/AviroopPaul/bleep).
 
 ## Install
 
@@ -25,7 +26,7 @@ Downloading `bleep-mac.dmg` in a browser also works, but macOS blocks the first 
 ## Needs
 
 - A Mac with Apple silicon, on macOS 15 or later.
-- Claude Code, installed. bleep signs in to Claude once during setup.
+- One of: Claude Code (bleep signs in once during setup), an API key from Anthropic, OpenAI, Gemini, OpenRouter or Groq, or a local model in Ollama or LM Studio.
 
 ## Remove
 
